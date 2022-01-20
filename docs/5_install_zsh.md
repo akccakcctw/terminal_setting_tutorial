@@ -1,6 +1,6 @@
 ## zsh 裝起來
 
-```bash
+```shell
 # 先安裝 zsh
 $ brew install zsh
 

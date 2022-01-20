@@ -2,7 +2,7 @@
 
 ## iTerm2 裝起來
 
-```bash
+```shell
 $ brew tap homebrew/cask
 $ brew install --cask iterm2
 ```

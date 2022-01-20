@@ -2,7 +2,7 @@
 
 ## 字型裝起來
 
-```bash
+```shell
 $ brew tap homebrew/cask-fonts
 
 $ brew install --cask font-fira-code

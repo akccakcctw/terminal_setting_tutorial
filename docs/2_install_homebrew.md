@@ -4,7 +4,7 @@
 
 打開你的 Spotlight，輸入「`終端機`」（如果你的電腦語言設定為英文，請輸入 `terminal`）
 
-```bash
+```shell
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 

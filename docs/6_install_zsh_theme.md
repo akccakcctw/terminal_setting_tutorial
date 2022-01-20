@@ -1,18 +1,18 @@
 https://github.com/ohmyzsh/ohmyzsh/wiki/External-themes
 
-```sh
+```shell
 $ vim ~/.zshrc
 ```
 
 按 `/` 搜尋 `ZSH_THEME` 找到下面這行，改為你要的 theme，我們改為熱門的 `agnoster`
 
-```zshrc
+```shell
 ZSH_THEME="agnoster"
 ```
 
 改完後你可以重啟 terminal 或是執行：
 
-```bash
+```shell
 $ exec $SHELL
 ```
 
