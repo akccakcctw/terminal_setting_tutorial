@@ -1,0 +1,47 @@
+export default {
+  title: 'terminal 環境美化（速成版）',
+  description: 'Just playing around.',
+  themeConfig: {
+    sidebarDepth: 2,
+    sidebar: {
+      '/': [
+        {
+          text: '環境美化的好處',
+          link: '/1_benifit',
+        },
+        {
+          text: '安裝 homebrew',
+          link: '/2_install_homebrew',
+        },
+        {
+          text: '安裝 iTerm2',
+          link: '/3_install_iterm2',
+        },
+        {
+          text: '安裝字型',
+          link: '/4_install_font',
+        },
+        {
+          text: '安裝 zsh',
+          link: '/5_install_zsh',
+        },
+        {
+          text: '安裝 zsh theme',
+          link: '/6_install_zsh_theme',
+        },
+        {
+          text: '必裝的 zsh plugins',
+          link: '/7_install_zsh_plugins',
+        },
+        {
+          text: '其他',
+          link: '/8_others',
+        },
+        {
+          text: '參考資料',
+          link: '/99_references',
+        },
+      ]
+    },
+  }
+}
