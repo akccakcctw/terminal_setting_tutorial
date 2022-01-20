@@ -1,0 +1,46 @@
+# @see: https://v2.vuepress.vuejs.org/guide/deployment.html#github-pages
+name: Build and Deploy Docs
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build-and-deploy-docs:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+
+    - name: Setup Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: 'lts/*'
+
+    # cache npm files
+    # @see: https://github.com/actions/cache/blob/main/examples.md#node---npm
+    - name: Cache Dependencies
+      uses: actions/cache@v2
+      id: npm-cache
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: ${{ runner.os }}-node-
+
+    # install dependencies with cache prefer
+    - name: Install Dependencies
+      if: steps.npm-cache.outputs.cache-hit != 'true'
+      run: npm ci --cache .npm --prefer-offline
+
+    - name: Build Vuepress Site
+      run: npm run docs:build
+
+    # @see https://github.com/crazy-max/ghaction-github-pages
+    - name: Deploy to GitHub Pages
+      uses: crazy-max/ghaction-github-pages@v2
+      with:
+        target_branch: gh-pages
+        build_dir: docs/.vitepress/dist
+      env:
+        # @see https://docs.github.com/en/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
