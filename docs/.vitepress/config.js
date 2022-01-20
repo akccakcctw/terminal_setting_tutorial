@@ -1,6 +1,7 @@
 export default {
   title: 'terminal 環境美化（速成版）',
   description: 'Just playing around.',
+	base: '/terminal_setting_tutorial/',
   themeConfig: {
     sidebarDepth: 2,
     sidebar: {
