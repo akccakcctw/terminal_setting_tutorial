@@ -48,7 +48,7 @@ $ zplug update
 
 ## 設定 Themes
 
-上面我們已經有安裝 `agnoster` 當作 theme，如果不喜歡，也可以到 [awesome-zsh-plugins#themes](https://github.com/unixorn/awesome-zsh-plugins#themes)找到自己喜歡的來使用。
+上面範例我們已經有安裝 `agnoster` 當作 theme，如果不喜歡，也可以到 [awesome-zsh-plugins#themes](https://github.com/unixorn/awesome-zsh-plugins#themes)找到自己喜歡的來使用。
 
 
 ```shell

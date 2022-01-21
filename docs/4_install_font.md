@@ -2,6 +2,7 @@
 
 由於我們的 teminal 將會變得很炫炮，需要支援特殊 icon 字元的 [nerd 字型](https://github.com/ryanoasis/nerd-fonts)才能正常顯示
 
+
 ## 字型裝起來
 
 ```shell
@@ -22,7 +23,12 @@ $ brew search nerd
 	- Use lightures
 	- Use a dirrerent font for non-ASCII text
 	- Anti-aliased
+  - 18 級字
 1. Non-ASCII 設定為剛剛安裝的 `SauceCodePro Nerd Font (ExtraLight)`
+	- Anti-aliased
+  - 18 級字
+
+![font setting](/assets/iterm2_font_setting.jpg)
 
 
 ## 參考資料
