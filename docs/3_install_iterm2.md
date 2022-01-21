@@ -1,4 +1,4 @@
-# 安裝 homebrew
+# 安裝 iTerm2
 
 **官網：https://iterm2.com/**
 

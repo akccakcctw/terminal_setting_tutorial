@@ -27,11 +27,11 @@ export default {
           link: '/5_install_zsh',
         },
         {
-          text: '安裝 zsh theme',
+          text: '設定 zsh 環境',
           link: '/6_install_zsh_theme',
         },
         {
-          text: '必裝的 zsh plugins',
+          text: 'zsh plugins 推薦',
           link: '/7_install_zsh_plugins',
         },
         {
