@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a,a as i}from"./app.4d6d2ca7.js";const u='{"title":"\u524D\u8A00\uFF1A\u74B0\u5883\u7F8E\u5316\u7684\u597D\u8655","description":"","frontmatter":{},"headers":[],"relativePath":"1_benifit.md","lastUpdated":1642784936324}',o={},_=i("",2),c=[_];function l(r,d,n,s,p,h){return a(),t("div",null,c)}var m=e(o,[["render",l]]);export{u as __pageData,m as default};
