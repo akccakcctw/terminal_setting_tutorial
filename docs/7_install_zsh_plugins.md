@@ -66,7 +66,7 @@ zplug "zsh-users/zsh-autosuggestions", defer:3
 ```
 
 
-## diff-so-fancy
+## [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
 
 方便看 diff 的小工具，我都靠它看 git 差異。
 
