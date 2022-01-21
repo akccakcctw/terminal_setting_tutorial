@@ -1,5 +1,4 @@
-#!/usr/bin/env zsh
-
+# zplug setting sample by RexTsou -------
 if ! [[ -f "${HOME}/.zplug/init.zsh" ]]; then
   curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh
 fi
