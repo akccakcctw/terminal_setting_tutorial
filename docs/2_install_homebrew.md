@@ -1,3 +1,5 @@
+# 安裝 homebrew
+
 **官網：https://brew.sh/**
 
 ## homebrew 裝起來

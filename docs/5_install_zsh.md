@@ -1,3 +1,5 @@
+# 安裝 zsh (Z shell)
+
 ## zsh 裝起來
 
 ```shell

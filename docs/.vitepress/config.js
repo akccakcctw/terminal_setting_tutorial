@@ -1,5 +1,5 @@
 export default {
-  title: 'terminal 環境美化（速成版）',
+  title: 'Terminal 環境美化（速成版）',
   description: 'Just playing around.',
 	base: '/terminal_setting_tutorial/',
   themeConfig: {

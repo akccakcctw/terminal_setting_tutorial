@@ -1,3 +1,5 @@
+# 安裝 homebrew
+
 **官網：https://iterm2.com/**
 
 ## iTerm2 裝起來

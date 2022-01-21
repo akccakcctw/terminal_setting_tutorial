@@ -10,25 +10,11 @@ plugins=(
 ```
 
 
-## [zplug](https://github.com/zplug/zplug)
-自動化的 zsh plugin 套件管理工具
-
-```shell
-$ curl -sL --proto-redir -all,https https://raw.githubusercontent.com/zplug/installer/master/installer.zsh | zsh
-```
-
-安裝好之後，就可以[用 zplug 安裝各種套件](https://github.com/zplug/zplug#example)了！
-之後若想更新套件：
-
-```shell
-zplug update
-```
-
-
 ## [fzf](https://github.com/junegunn/fzf#fuzzy-completion-for-bash-and-zsh)
 
 ```shell
 $ brew install fzf
+
 # To install useful key bindings and fuzzy completion:
 $ $(brew --prefix)/opt/fzf/install
 ```
